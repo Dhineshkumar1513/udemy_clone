@@ -72,7 +72,8 @@ body{
     padding: 10px;
 }
 .image{
-    
+    margin-top:10px;
+    border-top: 1px solid black;
     position: relative;
     
 }
@@ -194,7 +195,11 @@ body{
     
     .head__hide{
         display: flex;
+    }.image{
+        margin-top: 0;
+        border-top: 0;
     }
+
     .topic h3{
         flex-basis: 40%;
     }
